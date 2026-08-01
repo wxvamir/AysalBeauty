@@ -1,0 +1,92 @@
+body {
+    background-color: #f4f7f2;
+    color: #222;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* منوی بالا */
+nav {
+    background-color: #2d6a4f;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav h2 {
+    color: white;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* بخش اصلی */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 60px;
+    color: #1b4332;
+}
+
+.hero p {
+    font-size: 22px;
+}
+
+/* مقاله */
+.article {
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.article h2 {
+    color: #2d6a4f;
+}
+
+.article p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.article img {
+    width: 100%;
+    max-width: 700px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.article ul {
+    text-align: left;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.about {
+    max-width: 900px;
+    margin: 80px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.about h2 {
+    color: #2d6a4f;
+}
+
+.about h3 {
+    color: #1b4332;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.8;
+}
